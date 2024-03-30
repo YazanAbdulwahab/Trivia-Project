@@ -1,0 +1,106 @@
+print("Welcome to The 5 question trivia!")
+
+print("----------------------------------\n\n")
+
+print("1. Who painted the Mona Lisa?\n\n")
+
+print("A. Vincent Van Gogh")
+
+print("B. Pablo Picasso")
+
+print("C. Leonardo da Vinci")
+
+print("D. MichelAngelo")
+
+Question1 = input("Enter 'A', 'B', 'C' or 'D' ").lower()
+
+if Question1 == "c" or Question1 == "C":
+    
+    print("Correct")
+    
+else:
+    
+    print("Incorrect")
+    
+print("2. What is the chemical symbol for Gold?")
+
+print("A. Ag")
+
+print("B. Au")
+
+print("C. Go")
+
+print("D. Gd")
+
+Question2 = input("Enter 'A', 'B', 'C' or 'D' ").lower()
+
+if Question2 == "B" or Question2 == "b":
+    
+    print("Correct!")
+    
+else:
+    
+    print("Incorrect!")
+    
+print("3. Which planet is known as the 'Red Planet' ?")
+
+print("A. Venus")
+
+print("B. Mars")
+
+print("C. Jupiter")
+
+print("D. Saturn")
+
+Question3 = input("Enter 'A', 'B', 'C' or 'D' ").lower()
+
+if Question3 == "B" or Question3 == "b":
+    
+    print("Correct!")
+    
+else:
+    
+    print("Correct!")
+    
+print("4. Who discovered electricity?") 
+
+print("A. Isaac Newton")
+
+print("B. Nikola Tesla")
+
+print("C. Benjamin Franklin")
+
+print("D. Michael Faraday")
+
+Question4 = input("Enter 'A', 'B', 'C' or 'D' ").lower()
+
+if Question4 == "C" or Question4 == "c":
+    
+    print("Correct!")
+
+else:
+    
+    print("Incorrect!")
+    
+print("5. What is the national bird of the United States?")
+
+print("A. Pigeon")
+
+print("B. Eagle")
+
+print("C. Bald Eagle")
+
+print("D. Condor")
+
+Question5 = input("Enter 'A', 'B', 'C' or 'D' ").lower()
+
+if Question5 == "B" or Question5 == "b":
+    
+    print("Correct!")
+
+else:
+    
+    print("Incorrect!")
+
+
+print("Thank you for playing my trivia quiz! see you soon!")
